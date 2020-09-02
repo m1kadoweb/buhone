@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../fonts/Merriweather.eot");
+  src: url("../fonts/Merriweather.eot?iefix") format("eot"), url("../fonts/Merriweather.woff") format("woff"), url("../fonts/Merriweather.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../fonts/Merriweather-Bold.eot");
+  src: url("../fonts/Merriweather-Bold.eot?iefix") format("eot"), url("../fonts/Merriweather-Bold.woff") format("woff"), url("../fonts/Merriweather-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("Lato-Regular.eot");
+  src: local("Lato Regular"), local("Lato-Regular"), url("Lato-Regular.eot?#iefix") format("embedded-opentype"), url("Lato-Regular.woff") format("woff"), url("Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("Lato-Black.eot");
+  src: local("Lato Black"), local("Lato-Black"), url("Lato-Black.eot?#iefix") format("embedded-opentype"), url("Lato-Black.woff") format("woff"), url("Lato-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("Lato-Bold.eot");
+  src: local("Lato Bold"), local("Lato-Bold"), url("Lato-Bold.eot?#iefix") format("embedded-opentype"), url("Lato-Bold.woff") format("woff"), url("Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("Lato-Light.eot");
+  src: local("Lato Light"), local("Lato-Light"), url("Lato-Light.eot?#iefix") format("embedded-opentype"), url("Lato-Light.woff") format("woff"), url("Lato-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1116px;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  display: flex;
+  text-decoration: none;
+}
+
+.logo-text h1 {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 50px;
+  color: #005FA3;
+}
+
+.logo-text img {
+  margin-right: 30px;
+}
+
+.contact {
+  display: flex;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.contact img {
+  margin-left: 42px;
+  margin-right: 15px;
+}
+
+.contact:first-child img {
+  margin-left: 0;
+}
+
+.navigation-contacts {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 185px;
+}
+
+.navigation {
+  display: flex;
+  margin: 22px 0 31px 0;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navigation-menu {
+  display: flex;
+  margin-top: 22px;
+  margin-left: 185px;
+  list-style-type: none;
+}
+
+.navigation-menu li a {
+  margin-left: 68px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #222222;
+  text-decoration: none;
+}
+
+.navigation-menu li:first-child a {
+  margin-left: 0;
+}
+
+.promo-section {
+  height: 670px;
+  background: url("/img/firstscreen-bg.jpg") no-repeat center/cover;
+}
+
+.title {
+  display: block;
+  padding-top: 170px;
+  width: 589px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 66px;
+  color: #FFFFFF;
+}
+
+.button {
+  width: 270px;
+  display: block;
+  margin-top: 80px;
+  padding: 19px 0;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #005FA3;
+}
+/*# sourceMappingURL=style.css.map */
